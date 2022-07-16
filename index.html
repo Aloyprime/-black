@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+       <!--stylesheet-->
+      <link rel="stylesheet"  type="text/css" href="aloyblog.css">
+      <title>Aloy Blog</title>
+      <style>
+        @media (prefers-color-scheme: light), (prefers-color-scheme: no-preference) {
+            :root {
+            --bg: rgb(43, 203, 43);
+            --col: rgb(233, 166, 50);
+            --heading: orange;
+            --subheading: orange;
+            --links: #0d86d9;
+            }
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+            --bg: rgb(33, 97, 33);
+            --col: rgb(233, 169, 50);
+            --heading: orange;
+            --subheading: orange;
+            --links: #33c1ea;
+            }
+        }
+        body {
+            background: var(--bg);
+            color: var(--col);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 34em;
+            margin: 0 auto;
+            font-size: calc(.7em + 1vw);
+            padding: 1em;
+        }
+        h1 {
+            min-height: 2.3em;
+            background: url('../icon.png');
+            background-size: 2.3em;
+            background-repeat: no-repeat;
+            background-position: left center;
+            padding-left: 3em;
+            font-weight: normal;
+            max-width: 15em;
+            color: var(--heading);
+            font-size: 1.9em;
+        }
+        h2 {
+            color: var(--subheading);
+            font-weight: normal;
+            margin-bottom: .5em;
+        }
+        p {
+            margin: 0 0 .5em 0;
+            padding:0;
+        }
+        a {
+            color: var(--links);
+        }
+        #headless:empty {
+            display: none;
+        }
+        #headless {
+            font-style: italic;
+        }
+    </style>
+  </head>
+    <body>
+      <header>
+          <div class="logo">
+            <a href="index.html"><img src="img/logo.jpg" alt="aloyblog logo"></a>
+          </div>
+           <nav>
+               <a href="index.html">home</a>
+               <a href="contact.php">Contact</a>
+                <a href="about.html">about</a>
+            </nav>
+       </header>
+      <main>
+           <h1>blog news</h1>
+           <h2>Recent news</h2>
+           <p>We continuously explore, experience, and discuss the metaverse, underlying technologies, and related subjects <a href="blog/news-template.html">click here.</a></p>
+            <h1>Hello world</h1>
+            <p>We continuously explore, experience, and discuss the metaverse, underlying technologies, and related subjects.</p>
+            <p>Then we aim to turn that knowledge into clear articles so that you can join us on our journey to the future where the online and physical world merge.</p>
+        </main>
+       <aside:>
+           <h3>Ads</h3>
+            <p>this is where</p>
+            <h3>archives</h3>
+        </aside:>
+         <footer>
+         </footer>
+     </body>
+</html>
